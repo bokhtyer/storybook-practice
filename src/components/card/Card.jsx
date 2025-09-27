@@ -1,3 +1,7 @@
 export default function Card() {
-    return <div>Hello Card</div>;
+    return (
+        <div>
+            <h2>Hello Card Code Update Again Update Card</h2>
+        </div>
+    );
 }
