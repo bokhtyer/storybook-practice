@@ -1,3 +1,3 @@
 export default function Card() {
-    return <div>Hello Card</div>;
+    return <div>Hello Card Code Update</div>;
 }
