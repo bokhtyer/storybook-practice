@@ -8,6 +8,7 @@ export default function Card({ title, content, alignment = "left" }) {
                 padding: "10px",
                 borderRadius: "5px",
             }}
+            data-testid="card-item"
         >
             <h2>{title}</h2>
             <p>{content}</p>
