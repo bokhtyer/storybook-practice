@@ -1,8 +1,16 @@
-export default function Card(props) {
-    const { title } = props;
+export default function Card({ title, content, alignment = "left" }) {
     return (
-        <div>
+        <div
+            style={{
+                border: "1px solid black",
+                textAlign: alignment,
+                width: "300px",
+                padding: "10px",
+                borderRadius: "5px",
+            }}
+        >
             <h2>{title}</h2>
+            <p>{content}</p>
         </div>
     );
 }
