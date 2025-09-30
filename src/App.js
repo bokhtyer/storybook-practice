@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import { Button } from "./components/button/Button";
 import InputField from "./components/InputField/InputField";
+import Counter from "./components/Counter";
+import Card from "./components/card/Card";
 
 function App() {
     const [name, setName] = useState("");
@@ -15,6 +17,8 @@ function App() {
                 onChange={(e) => setName(e.target.value)}
                 value={name}
             />
+            <Counter />
+            <Card title="My Card Title" />
         </div>
     );
 }

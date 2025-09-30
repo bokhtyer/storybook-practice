@@ -1,7 +1,8 @@
-export default function Card() {
+export default function Card(props) {
+    const { title } = props;
     return (
         <div>
-            <h2>Hello Card Code Update Again Update Card</h2>
+            <h2>{title}</h2>
         </div>
     );
 }
