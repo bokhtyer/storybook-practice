@@ -18,7 +18,7 @@ function App() {
                 value={name}
             />
             <Counter />
-            <Card title="My Card Title" />
+            <Card title="My Card Title" content={"Card short description"} />
         </div>
     );
 }
