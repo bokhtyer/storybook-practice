@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Card with title 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="card-item"
+    style="border: 1px solid black; text-align: center; width: 300px; padding: 10px; border-radius: 5px;"
+  >
+    <h2>
+      My Card Title A
+    </h2>
+    <p>
+      Hello content
+    </p>
+  </div>
+</DocumentFragment>
+`;
